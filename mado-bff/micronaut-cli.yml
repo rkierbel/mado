@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.mado
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [ app-name, http-client, java, java-application, jib, junit, junit-platform-suite-engine, maven, maven-enforcer-plugin, micronaut-aot, micronaut-http-validation, netty-server, properties, rabbitmq, reactor, reactor-http-client, readme, serialization-jackson, shade, slf4j-simple, static-resources, test-resources ]
