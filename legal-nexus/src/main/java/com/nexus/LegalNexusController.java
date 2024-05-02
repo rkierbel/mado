@@ -1,4 +1,4 @@
-package com.mado;
+package com.nexus;
 
 import io.micronaut.http.annotation.*;
 

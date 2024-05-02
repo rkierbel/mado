@@ -1,4 +1,4 @@
-package com.mado.core.messaging;
+package com.core.messaging;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;

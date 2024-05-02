@@ -71,7 +71,7 @@
             </path>
           </annotationProcessorPaths>
           <compilerArgs>
-            <arg>-Amicronaut.processing.group=com.mado</arg>
+            <arg>-Amicronaut.processing.group=com.bff</arg>
             <arg>-Amicronaut.processing.module=common-core</arg>
           </compilerArgs>
         </configuration>
@@ -155,8 +155,8 @@
   </dependencies>
   <properties>
     <micronaut.aot.enabled>false</micronaut.aot.enabled>
-    <exec.mainClass>com.mado.core.Application</exec.mainClass>
-    <micronaut.aot.packageName>com.mado.aot.generated</micronaut.aot.packageName>
+    <exec.mainClass>com.bff.core.Application</exec.mainClass>
+    <micronaut.aot.packageName>com.bff.aot.generated</micronaut.aot.packageName>
     <lombok.mapstruct.binding.version>0.2.0</lombok.mapstruct.binding.version>
     <micronaut.runtime>netty</micronaut.runtime>
     <micronaut.version>4.3.8</micronaut.version>

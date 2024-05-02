@@ -1,4 +1,4 @@
-package com.mado.core;
+package com.core;
 
 import io.micronaut.runtime.Micronaut;
 

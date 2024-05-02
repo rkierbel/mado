@@ -1,4 +1,4 @@
-package com.mado;
+package com.bff;
 
 import io.micronaut.runtime.Micronaut;
 

@@ -16,13 +16,13 @@
     </parent>
 
     <properties>
-        <exec.mainClass>com.mado.core.CoreApplication</exec.mainClass>
+        <exec.mainClass>com.core.CoreApplication</exec.mainClass>
         <jdk.version>21</jdk.version>
         <lombok.version>1.18.32</lombok.version>
         <lombok.mapstruct.binding.version>0.2.0</lombok.mapstruct.binding.version>
         <micronaut.version>4.3.8</micronaut.version>
         <micronaut.aot.enabled>false</micronaut.aot.enabled>
-        <micronaut.aot.packageName>com.mado.aot.generated</micronaut.aot.packageName>
+        <micronaut.aot.packageName>com.bff.aot.generated</micronaut.aot.packageName>
         <micronaut.runtime>netty</micronaut.runtime>
         <micronaut.test.resources.enabled>true</micronaut.test.resources.enabled>
         <micronaut.maven.plugin.version>4.5.2</micronaut.maven.plugin.version>
@@ -170,7 +170,7 @@
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
-                        <arg>-Amicronaut.processing.group=com.mado</arg>
+                        <arg>-Amicronaut.processing.group=com.bff</arg>
                         <arg>-Amicronaut.processing.module=common-core</arg>
                     </compilerArgs>
                 </configuration>

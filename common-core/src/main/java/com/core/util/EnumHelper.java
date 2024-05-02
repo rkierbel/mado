@@ -1,6 +1,6 @@
-package com.mado.core.util;
+package com.core.util;
 
-import com.mado.core.exception.EnumValueNotFoundException;
+import com.core.exception.EnumValueNotFoundException;
 
 import java.util.Arrays;
 

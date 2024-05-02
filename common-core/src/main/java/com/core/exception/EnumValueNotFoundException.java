@@ -1,4 +1,4 @@
-package com.mado.core.exception;
+package com.core.exception;
 
 public class EnumValueNotFoundException extends RuntimeException {
 

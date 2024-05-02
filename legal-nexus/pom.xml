@@ -20,9 +20,9 @@
         <micronaut.version>4.4.1</micronaut.version>
         <micronaut.test.resources.enabled>true</micronaut.test.resources.enabled>
         <micronaut.aot.enabled>false</micronaut.aot.enabled>
-        <micronaut.aot.packageName>com.mado.aot.generated</micronaut.aot.packageName>
+        <micronaut.aot.packageName>com.bff.aot.generated</micronaut.aot.packageName>
         <micronaut.runtime>netty</micronaut.runtime>
-        <exec.mainClass>com.mado.Application</exec.mainClass>
+        <exec.mainClass>com.nexus.Application</exec.mainClass>
     </properties>
 
     <profiles>
@@ -205,7 +205,7 @@
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
-                        <arg>-Amicronaut.processing.group=com.mado</arg>
+                        <arg>-Amicronaut.processing.group=com.bff</arg>
                         <arg>-Amicronaut.processing.module=legal-nexus</arg>
                     </compilerArgs>
                 </configuration>
